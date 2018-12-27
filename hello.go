@@ -1,7 +1,3 @@
-go install github.com/dsharp/hello
-
-
-
 package main
 
 import (
