@@ -1,7 +1,16 @@
+go install github.com/dsharp/hello
+
+
+
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/daryl6/stringutil"
+)
 
 func main() {
-	fmt.Println("Hello, world.")
+	fmt.Println(stringutil.Reverse("!oG ,olleH"))
 }
+
